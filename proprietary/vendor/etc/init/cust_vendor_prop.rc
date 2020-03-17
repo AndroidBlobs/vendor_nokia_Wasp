@@ -1,0 +1,8 @@
+#
+# Huaqin create for WSP-4053 by lijingang at 2019/05/06
+#
+service cust_vendor_prop /vendor/bin/cust_vendor_prop
+    user root
+    group root system
+    disabled
+    oneshot
